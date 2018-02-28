@@ -1,57 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-    <title>Chicago: Assignment 3</title>
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></head>
+<?php include 'includes/html-top.php';?>
 
-    <!-- Fonts -->
-
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
-
-    <link href="styles/styles.css" rel="stylesheet">
-
-  </head>
-
-  <body>
     <div class="container">
 
       <!-- Bootstrap Navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-            </ul>
-        </div>
-        <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-								<a class="nav-link" href="student1.html">Bei Lu</a>
-						</li>
-						<li class="nav-item">
-								<a class="nav-link" href="student2.html">Conley Ernst</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="student3.html">Jovan Lee</a>
-					</li>
-				</ul>
-      </div>
-    </nav>
+        <?php include 'includes/menu.php';?>
 
     <div class = "belowborder">
 
@@ -87,5 +39,7 @@
       </footer>
     </div>
   </div>
+
+    <script src="javascript/menu-highlighter.js"></script>
 	</body>
 </html>
