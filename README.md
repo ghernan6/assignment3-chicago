@@ -11,9 +11,10 @@ German Hernandez - IA
 
 
 Andrew Regelski - Coder
-- Implemented javascript for slideshow
-- Handled the coding for navigation
-- Checked for code validation
+- Slideshow
+- Nav bar
+- PHP includes
+- Miscellaneous code modifications
 
 
 Jovan Lee - Design Artist
