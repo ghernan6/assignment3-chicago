@@ -16,7 +16,7 @@
 			<img src="images/uor-logo.png" alt="U of R logo">
 			<figcaption></figcaption>
 			</figure>
-			<!--On left-->
+			<!--On left--->
 
 			<section>
 				<h2>General Information</h2>
