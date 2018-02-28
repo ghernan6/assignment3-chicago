@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
 
    margin: 0 auto;
@@ -27,4 +28,87 @@ minipic {
     float:left;
     border-radius:50%;
     border-width: 1px; 
+=======
+
+body,.container{
+
+   margin: 0 auto;
+  width: 95%;
+    max-width: 1000px;
+    
+    background-color:#343A40;
+}
+/**     font-family: 'Roboto'
+Cutive+Mono
+
+Roboto Slab(headers) and Cutive Mono(p),
+*/
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto'!important;
+
+}
+
+h1,h2,h3,h4,h5,h6,p,footer,a{
+    color:#f2f2f2;
+    font-weight: 300;
+    
+}
+
+footer{
+    text-align: center;
+    font-weight:100;
+}
+p{
+    font-weight: 200!important;    
+    
+    font-family: 'Roboto Slab'!important;
+    
+}
+
+.img-circle {
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    border-width: 1px; 
+    text-align: center;
+}
+
+.minipic2{
+    height:300px;
+    width:300px;
+    float:left;
+    border-width: 1px;   
+    margin-right: 10px;
+    
+}
+
+section{
+    float: right;
+    
+}
+/* navar color */
+.bg-dark {
+    background-color: #f2f2f2!important;
+
+}
+.nav-link{
+    color:#333!important;
+    font-family: 'Roboto Slab'!important;
+    
+    
+}
+section{
+    display:block;
+}
+
+.whoarewe{
+    text-align: center;
+}
+a:hover{
+    color:none;
+    text-decoration:none;
+>>>>>>> c53c3e898bc5dba29f734670905231745c1f337f
 }

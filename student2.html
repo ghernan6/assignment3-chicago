@@ -3,50 +3,85 @@
 	<head>
 		<meta charset="utf-8">
     <title>Chicago: Assignment 3</title>
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></head>
 
+<!-- Fonts -->
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
+
+<link href="styles/styles.css" rel="stylesheet">
   </head>
 
   <body>
     <div class="container">
-      <header>
-        <h1>Conley Ernst - Computer Science & Digital Media Studies</h1>
-      </header>
+     
+        <header>
+            <h1>Rochester Computer Science Double Majors</h1>
+          </header>
+      <!-- Bootstrap Navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="student1.html">German Hernandez</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="student2.html">Andrew Regelski</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="student3.html">Jovan Lee</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
 
-      <nav class="menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="student1.html">Bei Lu</a></li>
-          <li><a href="student2.html">Conley Ernst</a></li>
-          <li><a href="student3.html">Jovan Gianni Lee</a></li>
-        </ul>
-      </nav>
-
-      <figure>
-        <img src="images/uor-logo.png" alt="U of R logo">
+    <div class = "belowborder">
+    <figure>
+        <img class ="minipic2" src="images/Andrew.jpg" alt="Andrew.jpg">
         <figcaption></figcaption>
       </figure>
       <!--On left-->
+      <h2>Andrew Regelski </h2> 
 
-      <section>
-        <h2>General Information</h2>
+        <h5>General Information</h5>
         <p>I am a Junior at the University of Rochester double majoring in Computer Science and Digital Media Studies, which provides the unique intersection of engineering and creative arts. Studying to be a software engineer, my academic and professional experience has given me a strong understanding of both the technical and user experience sides of a product.</p>
-      </section>
       <!--right of image-->
-
+       
       <article>
-        <h2>Academic Experience</h2>
+        <h5>Academic Experience</h5>
         <p>My academic career has had an interesting change of pace. I came in as a freshman with the intent of majoring in Digital Media Studies and Environmental Science. As a result, I spent my freshman year taking mainly Biology and Chemistry courses. The spring semester of my freshman year I took CSC 161 in order to fulfill a Digital Media Studies Requirement; this was my first introduction programming. Though I went in with the attitude that I was going to hate it, I ended up falling in love with programming and ended up switching my second major to Computer Science. I have since taken fundamental courses like Computation and Formal Systems in addition to courses like Mobile App Development and Web Programming. One of my favorite courses in Computer Science so far has been Video Game Design where I had the opportunity to apply my computer science skills to a new passion. Outside of computer science, I find myself drawn to art courses in order to complete my Digital Media Studies degree. One of my favorite courses has been New Media and Emerging Practices, were I got to continue my exploration of digital art. I have always had a passion for digital art and design, and am always looking for new was to combine this passion with my love for computer science.</p>
       </article>
       <!--these last two 'articles' should just be in one collumn, but watch the margins, since we don't want the text to be too wide.-->
 
       <article>
-        <h2>Work Experience</h2>
+        <h5>Work Experience</h5>
         <p>During my short career as a computer scientist I have worked at two different startups: Shareaholic and Drift. Both of the Boston based companies develop web applications. Shareaholic main product is a toolbar widget that different websites can install which allow there visitors to share their content on their social media. This one-click model can share to a variety of social media sites, catering to all different parts of the world. My time spent at Shareaholic was as a “Publisher Support Analyst”– which mainly functioned in the customer support role. I had the unique opportunity to solve problems, optimize the support process of the company, communicate directly with clients, as well as get my hands on some data analytics and advertising. Drift is a messaging application for sales and marketing. Instead of the traditional nurturing cycle of leads, Drift uses AI to instant qualifies and routes leads the the appropriate sales representative or automatically communicates with the customer. While at Drift I worked as a “Customer Advocate” working as a bridge between Support and Product teams. I had the opportunity to not only work directly with customers and engineers, but also to tackle independent projects and take ownership of the company’s “triage” process. I hope to work as a software engineer this upcoming summer and continue my professional development.</p>
       </article>
 
       <footer>
         <a href="http://urcsc174.org/assignment01/cernst/index.php">Original Assignment 1 Content</a>
       </footer>
+    </div>
     </div>
   </body>
 </html>
