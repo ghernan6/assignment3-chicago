@@ -11,8 +11,8 @@ German Hernandez - IA
 
 
 Andrew Regelski - Coder
-- Implemented javascript for map
 - Implemented javascript for slideshow
+- Handled the coding for navigation
 - Checked for code validation
 
 
@@ -20,5 +20,4 @@ Jovan Lee - Design Artist
 - Wrote CSS code and linked to it from HTML documents
 - Linked to bootstrap framework
 - Linked to internet fonts
-- Replaced navigation with Bootstrap Navbar
 - Added some other images to project
