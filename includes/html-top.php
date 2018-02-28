@@ -14,7 +14,7 @@
 </head>
 
 <!-- Fonts -->
-
+<!--Since the commanality between the students is related to academics (double majoring) and they're all majoring in CS, why don't we go for bright text against a dark background and use fonts that look like coding fonts (monospaced an dkind of blocky). A possible font pairing could be: Roboto Slab(headers) and Cutive Mono(p), but other fonts are fine as long as they fit with this mood and are legible.-->
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
