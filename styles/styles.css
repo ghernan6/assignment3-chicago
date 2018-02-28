@@ -1,34 +1,3 @@
-<<<<<<< HEAD
-.container{
-
-   margin: 0 auto;
-  width: 95%;
-    max-width: 1000px;
-}
-/**     font-family: 'Roboto'
-Cutive+Mono
-
-Roboto Slab(headers) and Cutive Mono(p),
-*/
-
-
-
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Roboto Slab'
-
-}
-
-p{
-    font-family: 'Cutive Mono'
-}
-
-minipic {
-    height:300px;
-    width:300px;
-    float:left;
-    border-radius:50%;
-    border-width: 1px; 
-=======
 
 body,.container{
 
@@ -110,5 +79,4 @@ section{
 a:hover{
     color:none;
     text-decoration:none;
->>>>>>> c53c3e898bc5dba29f734670905231745c1f337f
 }
